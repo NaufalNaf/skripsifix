@@ -1,6 +1,6 @@
 import streamlit as st
 
-clf = joblib.load('obesity_classifier.pkl')
+clf = joblib.load('klasifikasi_obesitas.pkl')
 
 st.title('Klasifikasi Tingkat Obesitas')
 
